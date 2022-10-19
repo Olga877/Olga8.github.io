@@ -296,8 +296,6 @@ background-size: cover;
 .navigation {
 	display: flex;
 	justify-content: space-between;
-	width: 585px;
-	
 }
 .footer-links {
 	display: flex;
@@ -497,6 +495,8 @@ background-size: cover;
 	}
 	.footer {
 		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
 	.footer .navigation {
 		flex-direction: column;
