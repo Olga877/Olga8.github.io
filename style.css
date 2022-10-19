@@ -437,7 +437,7 @@ background-size: cover;
 }
 }
 /* Portrait phones and smaller */
-@media (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 767px) {
 	.promotion__icons {
 		flex-wrap: wrap;	
 		margin: 0 auto;
@@ -482,5 +482,14 @@ background-size: cover;
 	.party {
 		display: flex;
 		flex-direction: column;
+	}
+	.main-menu .main-menu__sign-in,
+	.main-menu .main-menu__registration {
+		display: none;
+	}
+}
+@media screen and (max-width: 480px) {
+	.mobile-menu .mobile-registration {
+		display: none;
 	}
 }
