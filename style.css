@@ -495,5 +495,19 @@ background-size: cover;
 	.mobile-menu .mobile-registration {
 		display: none;
 	}
+	.footer {
+		flex-direction: column;
+	}
+	.footer .navigation {
+		flex-direction: column;
+	}
+	.footer .logo-section {
+		order: 2;
+		align-self: center;
+		margin-top: 30px;
+	}
+	.navigation .socials {
+		align-self: center;
+	}
 }
 
