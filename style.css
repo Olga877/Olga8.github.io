@@ -437,7 +437,7 @@ background-size: cover;
 }
 }
 /* Portrait phones and smaller */
-@media (min-width: 481px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 	.promotion__icons {
 		flex-wrap: wrap;	
 		margin: 0 auto;
