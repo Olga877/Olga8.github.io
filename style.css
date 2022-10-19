@@ -483,13 +483,8 @@ background-size: cover;
 		display: flex;
 		flex-direction: column;
 	}
-	.main-menu .main-menu__sign-in,
-	.main-menu .main-menu__registration {
-		display: none;
-	}
-}
-@media screen and (max-width: 480px) {
 	.mobile-menu .mobile-registration {
 		display: none;
 	}
 }
+
